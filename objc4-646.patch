@@ -7073,9 +7073,6 @@ index b69a9ff..8df1474 100644
  				);
  				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/objc;
  				PRODUCT_NAME = objc.A;
-diff --git a/objc.xcodeproj/project.xcworkspace/xcuserdata/huangjl.xcuserdatad/UserInterfaceState.xcuserstate b/objc.xcodeproj/project.xcworkspace/xcuserdata/huangjl.xcuserdatad/UserInterfaceState.xcuserstate
-index 53843a8..fb19508 100644
-Binary files a/objc.xcodeproj/project.xcworkspace/xcuserdata/huangjl.xcuserdatad/UserInterfaceState.xcuserstate and b/objc.xcodeproj/project.xcworkspace/xcuserdata/huangjl.xcuserdatad/UserInterfaceState.xcuserstate differ
 diff --git a/runtime/objc-os.h b/runtime/objc-os.h
 index 52b2ef5..03eb563 100644
 --- a/runtime/objc-os.h
