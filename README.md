@@ -10,7 +10,7 @@ Object-c的runtime库libobjc.dylib的源码是开源的，[Apple Opensource源](
 2. 下载本repo的objc4-646.patch到objc4的源码目录
 3. 打开命令行，进入到objc4的源码目录病执行```git apply objc4-646.patch```
 
-这样当前的objc4就可以直接编译了，注意我只在当前的646版本上测试过
+这样当前的objc4就可以直接编译了，注意我只在当前的646版本上测试过。这个patch主要是添加了一些必要的头文件，放在工程中的include目录下，并且去掉了项目中的LIBC_NO_LIBCRASHREPORTERCLIENT预编译宏。
 
 
 #测试调试
