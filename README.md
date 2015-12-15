@@ -1,6 +1,6 @@
 Apple Source libobjc
 ------
-Object-c的runtime库libobjc.dylib的源码是开源的，[Apple Opensource源](http://opensource.apple.com/source/objc4/objc4-646/)，或者 [github源](https://github.com/longv2go/objc4)。
+Object-c的runtime库libobjc.dylib的源码是开源的，下载地址[Apple Opensource源](http://opensource.apple.com/source/objc4/objc4-646/)或[github源](https://github.com/longv2go/objc4)。
 这个工程下载下来并不能直接编译，需要很多苹果的其他头文件，[参见教程。](http://blog.csdn.net/proteas/article/details/7822065)这样编译起来比较麻烦，本repo的目的主要是提供一个patch然后下载最新的objc4源码，用git把补丁打上就能编译。
 
 #使用方法
